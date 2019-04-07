@@ -1,3 +1,12 @@
+body {
+  color: #0D0453
+  font family: font-family:"montserrat", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #7B71C8
+}
 {
   margin: 0;
   padding:0;
@@ -53,9 +62,6 @@ textarea.contact-form-text{
   background:
 }
 
-
-
-
 * { box-sizing: border-box; }
 body {
   font: 16px Arial;
@@ -101,3 +107,5 @@ input[type=submit] {
   background-color: DodgerBlue !important;
   color: #ffffff;
 }
+}
+h1
