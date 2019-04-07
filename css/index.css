@@ -1,3 +1,101 @@
-body {
-  background-color: grey;
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:0;
+    margin-left:0;
+ }
+.starter-template {
+  background-color: #FFFFFF;
+}
+
+ body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 1.5rem 1.5rem;
+  text-align: center;
+}
+h1 {
+  color: #95A3A3;
+}
+.row {
+  color: white;
+}
+.col-sm {
+  color: #000000;
+  background-color: #ccdefc;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.navbar{
+  background-color: #3D7C8E !important;
+}
+.navbar-brand {
+  color: #FFFFFF !important;
+}
+.navbar form button{
+  background-color: #3D7C8E;
+  color: #FFFFFF;
+  border: #FFFFFF;
+}
+.navbar form button:hover{
+  background-color: #black;
+  color: #FFFFFF;
+  border: #FFFFFF;
+}
+
+
+.contact-section{
+  background:<img src="Sky.jpg" width=50%>
+ center;
+  background-size: cover;
+  padding: 40px 0;
+}
+.contact-section h2{
+  text-align: center;
+  color:#95A3A3;
+}
+.border{
+  width: 100px;
+  height: 10px;
+margin: 40px auto
+}
+
+.contact-form{
+  max-width: 600px
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 80%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  background: #D3E3E3;
+  padding: 20px 40px;
+  outline: none;
+  color:#ddd;
+  transition: 0.5s;
+}
+
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #95A3A3;
+}
+
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background:
 }
