@@ -1,0 +1,54 @@
+{
+  margin: 0;
+  padding:0;
+  font-family:"montserrat", sans-serif;
+}
+.contact-section{
+  background:<img src="Sky.jpg" width=50%>
+ center;
+  background-size: cover;
+  padding: 40px 0;
+}
+.contact-section h2{
+  text-align: center;
+  color:#95A3A3;
+}
+.border{
+  width: 100px;
+  height: 10px;
+margin: 40px auto
+}
+
+.contact-form{
+  max-width: 600px
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 80%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  background: #D3E3E3;
+  padding: 20px 40px;
+  outline: none;
+  color:#ddd;
+  transition: 0.5s;
+}
+
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #95A3A3;
+}
+
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background:
+}
