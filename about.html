@@ -10,9 +10,9 @@
 
   <!-- ADD BOOTSTRAP CORE HERE!!!! -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-  <!-- Custom styles for this template -->
-  <link href="css/about.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/about.css">
 
 </head>
 
@@ -50,29 +50,170 @@
       <!-- columns -->
       <div class="row">
         <div class="col-sm">
-          <h4>Step 1</h4><img src="location.png" width=60px height=60px><br>Select a location from the dropdown menu.<br>e.g. Australia<br><br>or<br><br>Choose an activity you'd like to do.<br>e.g. Surfing
+          <h2>Step 1</h2><br><img src="images/location.png" width=70px height=70px><br><br>Select a location from the dropdown menu.<br>e.g. <i>Australia</i><br><br><i>or</i><br><br>Choose an activity you'd like to do.<br>e.g. <i>Surfing</i>
         </div>
         <div class="col-sm">
-          <h4>Step 2</h4><img src="magnifying_glass.png" width=60px height=60px><br>Browse through our database of activities.<br><br><img src="speech_bubble.png" width=60px height=60px"><p>Read some reviews.
+          <h2>Step 2</h2><br><img src="images/magnifying_glass.png" width=70px height=70px><br><br>Browse through our database of activities.<br><br><img src="images/speech_bubble.png" width=70px height=70px><br><br>Read some reviews.
         </div>
         <div class="col-sm">
-          <h4>Step 3</h4><img src="smile.png" width=60px height=60px><br>We'll give you all the details!
+          <h2>Step 3</h2><br><img src="images/smile.png" width=70px height=70px><br><br>We'll give you all the details!
         </div>
       </div>
-<br>
 
-<div class="grey-section">
-  <h1>Testimonials</h1>
-  <p class="lead">We've already helped thousands of people to find fun things to do!
-</div>
+<br><br>
+
+<!--testimonial slider-->
+<div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+		<div class="testimonial4_header">
+			<h1>Testimonials</h1>
+      <p class="lead">What some of our <b>users</b> say about us...</p>
+		</div>
+		<ol class="carousel-indicators">
+			<li data-target="#testimonial4" data-slide-to="0" class="active"></li>
+			<li data-target="#testimonial4" data-slide-to="1"></li>
+			<li data-target="#testimonial4" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class="testimonial4_slide">
+					<img src="images/f1.jpg" class="img-circle img-responsive" />
+					<p>Travelroo has helped me so much with planning trips locally and abroad. I'd give it 5 stars out of 5!</p>
+					<h4>Dora the Explorer</h4>
+				</div>
+			</div>
+			<div class="item">
+				<div class="testimonial4_slide">
+					<img src="images/f2.jpg" class="img-circle img-responsive" />
+					<p>The best thing since the iPhone! I wish I'd created it myself.</p>
+					<h4>Steve Jobs</h4>
+				</div>
+			</div>
+			<div class="item">
+				<div class="testimonial4_slide">
+					<img src="images/f3.jpg" class="img-circle img-responsive" />
+					<p>Literally the best thing ever. Literally.</p>
+					<h4>Kim Kardashian</h4>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#testimonial4" role="button" data-slide="prev">
+			<span class="fa fa-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#testimonial4" role="button" data-slide="next">
+			<span class="fa fa-chevron-right"></span>
+		</a>
+	</div>
 
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+  <!--testimonial slider ends here-->
 
+<br><br>
 
+  <!--team section starts here-->
+  <section class="team-section text-center my-5">
 
+    <!-- Section heading -->
+    <h1>Our team</h1>
+    <!-- Section description -->
+    <p class="lead">We are a team of <b>coding students</b> who have a <i>passion for travel!</i></p><br>
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+        <div class="avatar mx-auto">
+          <img src="images/lauren.jpg" class="rounded-circle z-depth-1"
+            alt="Sample avatar" height=240 width=240>
+        </div>
+        <h5 class="font-weight-bold mt-4 mb-3">Lauren Tang</h5>
+        <p class="text-uppercase blue-text"><strong>Front-end developer</strong></p>
+        <p class="grey-text">Hi everyone! I'm Lauren and I recently graduated with a First in Economics and Philosophy from the University of Southampton. My greatest loves are travelling, music, food, and my overweight cat Nora.</p>
+        <ul class="list-unstyled mb-0">
+          <!-- Facebook -->
+          <a href="https://facebook.com"><img src="images/facebook.png" width=30 height=30>
+          </a>
+          <!-- Twitter -->
+          <a href="https://twitter.com"><img src="images/twitter.png" width=30 height=30>
+          </a>
+          <!-- Instagram -->
+          <a href="https://instagram.com"><img src="images/instagram.png" width=30 height=30>
+          </a>
+        </ul>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+        <div class="avatar mx-auto">
+          <img src="images/aleksandra.jpg" class="rounded-circle z-depth-1"
+            alt="Sample avatar" width=240 height=240>
+        </div>
+        <h5 class="font-weight-bold mt-4 mb-3">Aleksandra</h5>
+        <p class="text-uppercase blue-text"><strong>Graphic designer</strong></p>
+        <p class="grey-text">Hi! My name is Aleksandra. I study International Business in London and I participate in the Code First: Girls course. I enjoy travelling and reading.</p>
+        <ul class="list-unstyled mb-0">
+          <!-- Facebook -->
+          <a href="https://facebook.com"><img src="images/facebook.png" width=30 height=30>
+          </a>
+          <!-- Instagram -->
+          <a href="https://instagram.com"><img src="images/instagram.png" width=30 height=30>
+          </a>
+        </ul>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
+        <div class="avatar mx-auto">
+          <img src="images/beth.jpg" class="rounded-circle z-depth-1"
+            alt="Sample avatar" width=240 height=240>
+        </div>
+        <h5 class="font-weight-bold mt-4 mb-3">Beth Savagar</h5>
+        <p class="text-uppercase blue-text"><strong>Photographer</strong></p>
+        <p class="grey-text">Hi, I'm Beth. I studied Biology at the University of Bristol. In my spare time, I enjoy playing badminton and going to the beach.</p>
+        <ul class="list-unstyled mb-0">
+          <!-- Twitter -->
+          <a href="https://twitter.com"><img src="images/twitter.png" width=30 height=30>
+          </a>
+          <!-- Instagram -->
+          <a href="https://instagram.com"><img src="images/instagram.png" width=30 height=30>
+          </a>
+        </ul>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-3 col-md-6">
+        <div class="avatar mx-auto">
+          <img src="images/fiona.jpg" class="rounded-circle z-depth-1"
+            alt="Sample avatar" width=240 height=240>
+        </div>
+        <h5 class="font-weight-bold mt-4 mb-3">Tom Adams</h5>
+        <p class="text-uppercase blue-text"><strong>Back-end developer</strong></p>
+        <p class="grey-text">Hi everyone, my name's Fiona. I studied Fashion at the University of Edinburgh. My hobbies including skiing and climbing. I am part mountain goat and enjoy eating cherries (and cheerios).</p>
+        <ul class="list-unstyled mb-0">
+          <!-- Facebook -->
+          <a href="https://facebook.com"><img src="images/facebook.png" width=30 height=30>
+          </a>
+          <!-- Twitter -->
+          <a href="https://twitter.com"><img src="images/twitter.png" width=30 height=30>
+          </a>
+          <!-- Instagram -->
+          <a href="https://instagram.com"><img src="images/instagram.png" width=30 height=30>
+          </a>
+        </ul>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </section>
+  <!--team section ends here-->
 
     </main><!-- /.container -->
 
