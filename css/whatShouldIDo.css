@@ -405,18 +405,32 @@ textarea.contact-form-text{
   position: relative;
 }
 
-.testimonial4_slide p {
-  color: #ffffff;
+p {
+  color: #686868;
   font-size: 16px;
   margin: 40px 0 20px 0;
 }
 
-.testimonial4_slide h4 {
-  color: #ffffff;
-  font-size: 24px;
+h4 {
+  color: #5C8C96;
+  font-size: 20px;
   font-weight: bold;
+  align: center;
 }
 
+h5 {
+  color: #8FB4BC;
+  font-size: 20px;
+  font-weight: bold;
+  align: center;
+}
+
+h1 {
+  color: #305E67;
+  font-size: 50px;
+  font-weight: bold;
+  align: center;
+}
 
 @media only screen and (max-width: 480px){
   .testimonial4_control_button .carousel-control{
@@ -488,9 +502,6 @@ textarea.contact-form-text{
     opacity: 0;
   }
 }
-
-
-
 
 
 @media (max-width: 767px){
