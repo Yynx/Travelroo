@@ -1,0 +1,111 @@
+body {
+  color: #0D0453
+  font family: font-family:"montserrat", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #7B71C8
+}
+{
+  margin: 0;
+  padding:0;
+  font-family:"montserrat", sans-serif;
+}
+.contact-section{
+  background:<img src="Sky.jpg" width=50%>
+ center;
+  background-size: cover;
+  padding: 40px 0;
+}
+.contact-section h2{
+  text-align: center;
+  color:#95A3A3;
+}
+.border{
+  width: 100px;
+  height: 10px;
+margin: 40px auto
+}
+
+.contact-form{
+  max-width: 600px
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 80%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  background: #D3E3E3;
+  padding: 20px 40px;
+  outline: none;
+  color:#ddd;
+  transition: 0.5s;
+}
+
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #95A3A3;
+}
+
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background:
+}
+
+* { box-sizing: border-box; }
+body {
+  font: 16px Arial;
+}
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+}
+h1
