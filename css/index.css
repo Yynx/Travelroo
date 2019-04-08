@@ -12,13 +12,15 @@
 
  body {
   padding-top: 5rem;
+  background-image: url('../images/background-img.jpg');
+  background-size: 100% 100%;
 }
 
 h1 {
-  color: #95A3A3;
+  color: black;
 }
 .row {
-  color: white;
+  color: black;
 }
 .col-sm {
   color: #000000;
