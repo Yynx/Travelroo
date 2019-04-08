@@ -4,17 +4,16 @@
     margin-right:0;
     margin-left:0;
  }
-.starter-template {
-  background-color: #FFFFFF;
-}
+
+ .starter-template {
+   padding: 1.5rem 1.5rem;
+   text-align: center;
+ }
 
  body {
   padding-top: 5rem;
 }
-.starter-template {
-  padding: 1.5rem 1.5rem;
-  text-align: center;
-}
+
 h1 {
   color: #95A3A3;
 }
