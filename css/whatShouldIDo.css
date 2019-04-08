@@ -136,6 +136,9 @@ textarea.contact-form-text{
   width: 100%;
   display: block;
   opacity: 0.8;
+  max-width: 1100px;
+  position: relative;
+  top: 56px;
 }
 
 * {box-sizing:border-box}
